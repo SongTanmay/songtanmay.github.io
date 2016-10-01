@@ -1,0 +1,101 @@
+body { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif }
+h2,h3,h4,h5,h6 { margin-bottom: 4px }
+h1.sitetitle  { font-size: 36px }
+h1 { font-size: 32px }
+h2, .toctitle { font-size: 24px }
+h3 { font-size: 18px }
+h4 { font-size: 16px; font-style: italic }
+
+a.noformat { color: black }
+
+.col-left { font-size: 12px }
+.col-right { font-size: 12px }
+
+table.travel { font-size: 12px }
+
+table td { padding: 3px 8px }
+
+#pubTable_filter {display: none}
+#pubTable th:first-child + th {display: none}
+#pubTable td:first-child + td {display: none}
+#pubTable_info {display:none}
+#pubTable th {display: none}
+#pubTable .biblink {display: none}
+
+.sidebar ul
+{
+	padding-left: 1em;
+}
+
+.sidebar div.nolist ul
+{
+	list-style-type: none;
+	padding: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	margin-right: 1em;
+}
+
+.wrapline
+{
+	padding-left: 1em;
+	text-indent: -1em;
+	margin-right: 1em;
+}
+
+ul { list-style-type: circle }
+
+.content h3
+{
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+.content h4 { margin-left: -5px }
+.content h5 { font-weight: bold }
+
+.assignment
+{
+	background: #f0f0f0;
+	padding: 5px 10px;
+	margin-bottom: 1em;
+}
+
+.assignment h3 { margin-top: 0 }
+.assignment h4:before
+{
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f073";
+	padding-right: .5em;
+	font-style: normal;
+	font-size: 95%;
+	color: #666;
+}
+.assignment p {padding-left: 1.5em}
+
+.sidebar table
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.sidebar td, .sidebar th { padding: 0 }
+.sidebar th { border-bottom: 1px solid black }
+.sidebar hr
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sidebar h3 { margin-top: 10px }
+.sidebar .fa { color: #666 }
+.sidebar li .fa { margin-left: .5em }
+
+.books td:first-child { text-align: center }
+.books td { vertical-align: top }
+
+.fa-cloud { color: #4ec9f4 }
+.fa-mobile { color: #32c800 }
+
+.center-content ul { padding-left: 1em }
+
+
