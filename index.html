@@ -28,7 +28,7 @@
 
 	</head>
 
-	<body id="page-top" class="index">
+	<body id="page-top" class="index" onload="work()">
 
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -36,6 +36,23 @@
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/freelancer.js"></script>
+		<script>
+			function work() {
+
+			var quotes = $(".quotes");
+			var quoteIndex = -1;
+
+			function showNextQuote() {
+					++quoteIndex;
+					quotes.eq(quoteIndex % quotes.length)
+							.fadeIn(1000)
+							.fadeOut(1000, showNextQuote);
+			}
+
+			showNextQuote();
+
+			};
+		</script>
 
 		<!-- Navigation -->
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -99,7 +116,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-offset-2 col-md-8">
-						<p>To design human-centered interface with industry standards and make it intuitive is the what I look up to when it comes to Human-Computer Interaction. I cite my past developing/design experience and astute observational skills as my inspiration towards design.</p>
+						<p>To design human-centered interface with industry standards and make it intuitive is the what I look up to when it comes to Human-Computer Interaction. I cite my past developing/design experience and astute observational skills as my inspiration towards design. Till now I have worked with <code class="quotes">.js</code> <code class="quotes">.rb</code> <code class="quotes">.ino</code> <code class="quotes">.py</code><code class="quotes">.psd</code><code class="quotes">.ai</code><code class="quotes">.indd</code></p>
 					</div>
 				</div>
 
