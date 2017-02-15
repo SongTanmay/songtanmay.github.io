@@ -333,7 +333,12 @@ footer{
 }
 .desc h3{
 	text-transform: none;
+	color: rgba(0, 0, 0, 0.87);
 }
 .portfolio-item{
 	border: 1px solid #ceebc8;
+}
+code{
+	color: rgba(0, 0, 0, 0.87);
+	background-color: #dff2db;
 }
