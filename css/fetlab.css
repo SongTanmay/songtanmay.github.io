@@ -334,11 +334,26 @@ footer{
 .desc h3{
 	text-transform: none;
 	color: rgba(0, 0, 0, 0.87);
+	-webkit-transition: color .50s ease;
+  transition: color .50s ease;
 }
 .portfolio-item{
-	border: 1px solid #ceebc8;
+	border: 0px solid #ceebc8;
 }
 code{
 	color: rgba(0, 0, 0, 0.87);
 	background-color: #dff2db;
+}
+#hobby{
+  text-align: left;
+  background-color: #222222;
+}
+
+.portfolio-item{
+
+}
+
+/*On hover css*/
+h3:hover{
+	color: rgb(132, 187, 121);
 }
