@@ -241,7 +241,7 @@ footer{
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
@@ -349,11 +349,8 @@ code{
   background-color: #222222;
 }
 
-.modal-text{
-	float: left;
-}
-.modal-h4{
-	float: left;
+.site_map{
+	max-width: 50%;
 }
 
 /*On hover css*/
