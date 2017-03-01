@@ -353,6 +353,10 @@ code{
 	max-width: 50%;
 }
 
+.footerh2{
+	font-weight: 400;
+}
+
 /*On hover css*/
 h3:hover{
 	color: rgb(132, 187, 121);
