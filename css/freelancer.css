@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 h1,
@@ -352,7 +352,8 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    background-color: #ffffff;
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 .btn-social {

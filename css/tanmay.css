@@ -22,7 +22,7 @@ p
 
 a, a:hover, a:focus, a:active, a.active
 {
-	color: rgba(67, 67, 67, 0.5);
+	color: rgba(0, 0, 0, 0.87);
 	outline: 0px none;
 	text-decoration: none !important;
 }
@@ -357,7 +357,27 @@ code{
 	font-weight: 400;
 }
 
+#contact{
+	text-align: left;
+}
+
+.contact_me_text{
+	-webkit-transition: color .50s ease;
+	transition: color .50s ease;
+}
+
+.contact_me_text div{
+	font-size: 25px;
+}
+.icon{
+	margin-right: 2%;
+}
+
 /*On hover css*/
 h3:hover{
+	color: rgb(132, 187, 121);
+}
+
+.contact_me_text:hover{
 	color: rgb(132, 187, 121);
 }
