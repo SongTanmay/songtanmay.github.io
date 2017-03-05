@@ -179,7 +179,8 @@ hr.fa
 	padding-bottom: 50%;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: contain;
+	background-size: 100%;
+	margin-bottom: 2%;
 
 }
 #projects .alum td.img
@@ -377,6 +378,10 @@ code{
 }
 .icon{
 	margin-right: 2%;
+}
+.passionate{
+	float: left;
+	margin-right: 1%;
 }
 
 /*On hover css*/
