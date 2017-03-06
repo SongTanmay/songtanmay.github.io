@@ -384,6 +384,17 @@ code{
 	margin-right: 1%;
 }
 
+h5{
+	text-transform: none;
+}
+.first_question{
+	color: #FF1F0F;
+}
+
+.second_question{
+	color: #FFA33B;
+}
+
 /*On hover css*/
 h3:hover{
 	color: rgb(132, 187, 121);
