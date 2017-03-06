@@ -387,12 +387,23 @@ code{
 h5{
 	text-transform: none;
 }
+
 .first_question{
 	color: #FF1F0F;
 }
 
 .second_question{
 	color: #FFA33B;
+}
+
+.sideprojects-image{
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-bottom: 2%;
 }
 
 /*On hover css*/
