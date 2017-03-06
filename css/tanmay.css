@@ -1,7 +1,7 @@
 body
 {
-	font-family: "Junction Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.8;
 }
 
 .quotes {display: none;}
@@ -179,7 +179,8 @@ hr.fa
 	padding-bottom: 50%;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: contain;
+	background-size: 100%;
+	margin-bottom: 2%;
 
 }
 #projects .alum td.img
@@ -221,10 +222,16 @@ footer{
 	color: #94D487;
 }
 .hi{
-	font-size: 25px;
-	color: rgba(255, 255, 255, 0.87);
+	font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 32px;
+	color: #9d9d9d;
+	line-height: 44px;
 }
 .white_h2{
+	font-size: 42px;
+line-height: 1.3;
 	color: rgba(255, 255, 255, 0.87);
 }
 
@@ -248,7 +255,7 @@ footer{
   font-size: 3em;
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
@@ -371,6 +378,32 @@ code{
 }
 .icon{
 	margin-right: 2%;
+}
+.passionate{
+	float: left;
+	margin-right: 1%;
+}
+
+h5{
+	text-transform: none;
+}
+
+.first_question{
+	color: #FF1F0F;
+}
+
+.second_question{
+	color: #FFA33B;
+}
+
+.sideprojects-image{
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin-bottom: 2%;
 }
 
 /*On hover css*/
