@@ -406,6 +406,10 @@ h5{
 	margin-bottom: 2%;
 }
 
+.logo{
+	width: 10%;
+}
+
 /*On hover css*/
 h3:hover{
 	color: rgb(132, 187, 121);
