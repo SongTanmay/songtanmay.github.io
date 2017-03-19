@@ -105,7 +105,14 @@ header
 {
 	color: #5d5d5d;
 	text-align: left;
-	background-color: #222222;
+	background-color: #ffffff;
+}
+
+.carousel-caption{
+	text-align: left;
+	right: 0;
+	left: 0;
+	top: 0;
 }
 
 h2{ color: #5d5d5d}
@@ -223,16 +230,25 @@ footer{
 }
 .hi{
 	font-family: "Roboto",sans-serif;
-font-weight: 300;
-font-style: normal;
-	font-size: 32px;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
 	color: #9d9d9d;
 	line-height: 44px;
+
 }
 .white_h2{
 	font-size: 42px;
-line-height: 1.3;
-	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.3;
+	color: #9d9d9d;
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0);
+}
+
+.tanmay{
+	padding-top: 20% !important;
+}
+.hi_tanmay{
+	width: 60%
 }
 
 .portfolio-modal .modal-dialog {
