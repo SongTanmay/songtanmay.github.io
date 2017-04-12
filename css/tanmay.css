@@ -474,6 +474,10 @@ h5{
 	color: rgba(0,0,0,.7);
 }
 
+.fa-5{
+	font-size: 5em !important;
+	color: #94D487;
+}
 /*On hover css*/
 h3:hover{
 	color: rgb(132, 187, 121);
