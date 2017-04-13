@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Tanmay Designer|Developer|Photographer</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/freelancer.css" rel="stylesheet">
+		<link href="css/tanmay.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/junction.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+	</head>
+
+	<body id="page-top" class="index" onload="work()">
+
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/freelancer.js"></script>
+		<script>
+			function work() {
+			var quotes = $(".quotes");
+			var quoteIndex = -1;
+			function showNextQuote() {
+					++quoteIndex;
+					quotes.eq(quoteIndex % quotes.length)
+							.fadeIn(3000)
+							.fadeOut(500, showNextQuote);
+			}
+			showNextQuote();
+			};
+		</script>
+		<!-- Navigation -->
+		<nav class="navbar navbar navbar-fixed-top">
+			<a href="index.html" class="navbar-left"><img class='logo' src="projects/logo.png"></a>
+		</nav>
+
+<!-- Sound Touch -->
+<div class="portfolio-modal" id="soundtouch" style='display: block; padding-left: 0px;'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+
+                            <h2 class="lower_case">Sound Touch: When Everyday Things Talk to Each Other</h2>
+                            <br>
+														<div class="people-image img-responsive"
+									            style="background-image:url('projects/soundtouch/soundtouch.png')">
+									          </div>
+														<br>
+                            <h4 class='modal-h4'>Roots</h4>
+                            <p class="modal-text">One fine morning, in the diligent atmosphere of our FETLab, Dr. Daniel Ashbrook engaged me in a conversation about new horizons in the field of Internet of Things and endless possibilities in it. In the middle of discussion he stood up, turned on the coffee machine and placed the cup under the nozzle. As he turned coffee machine on, he realized there is no water. Habitually he refilled the water jar and resumed the process. While the coffeemaker was busy brewing, he dabbled in his iPhone for a few seconds and the music player came to life with some ambient music before he picked up his freshly brewed coffee and resumed our discussion. As the aroma of caffeine filled my senses, in a moment of inspiration I asked him if we could automate this process.</p>
+                            <p class="modal-text">Elaborating it further I continued, what if he entered the lab and the lights turn on. As soon as
+                               lights are on, the coffee machine will start and no later does the coffee machine start, the music player will start
+                               playing music.<p>
+                            <h5 class='modal-h5'>He liked the idea for following reasons:</h5>
+                            <ul class="modal-h5">
+                              <li>Automation</li>
+                              <li>Time Saver</li>
+                              <li>And he likes coffee ;-)</li>
+                            </ul>
+<hr>
+<h4 class='modal-h4'>How to proceed?</h4>
+<p class="modal-text">Soon enough we finalized the idea and he was enthusiastic and kind enough to refer one of his previous research work on detecting type of material with the help of sound. He showed how detection of material is done by hitting the material with hammer and depending on the kind of sound made by material, it will be identified.</p>
+<p class="modal-text">On the same principles, we simply replaced “material” with “object”(everyday things).
+</p>
+<h5 class='modal-h5'>The sequence that comes into play is:</h5>
+<ul class='modal-h5'>
+<li>Detect the sound made by object when user interacts with it.</li>
+<li>With the help of machine learning classify sound samples.</li>
+<li>Link one object with other object.</li>
+</ul>
+<br>
+<img class="img-responsive" src="projects/soundtouch/soundtouch_workflow.png" alt="">
+<hr>
+<h4 class='modal-h4'>User Flow</h4>
+<p class="modal-text">Here is the first iteration of end to end user flow on how user will interact with mobile application.</p>
+<div class="mxgraph" style="border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#FFFFFF&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0\&quot; version=\&quot;6.2.4\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;google\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div> <script type="text/javascript" src="https://www.draw.io/embed2.js?s=flowchart&"></script>
+<hr>
+<h4 class='modal-h4'>Wireframes</h4>
+<p class="modal-text">Depending on the user flow I started sketching wireframes focusing more on functionality and layout. Here are the wire frames for all the three options of app.</p>
+<img class="img-responsive" src="projects/soundtouch/soundtouch_wireframes.png" alt="">
+<hr>
+<h4 class='modal-h4'>Lessons Learnt</h4>
+<p class="modal-text">Once the wireframes were ready I did a quick pilot test with a user. The study was conducted in the lab and user was presented with paper wireframes and he has to presume as if it was a real app.
+</p>
+<h5 class='modal-h5'>At the end of the study I was left with three unanswered questions:</h5>
+<ol class='modal-h5'>
+<li>What if single photo does not capture the all the parts of an object?</li>
+<li>Why is the process of recording and linking action is in two different screens?</li>
+<li>What are the type of interactions that can be performed by user?</li>
+</ol>
+<h5 class='modal-h5'>Let’s look at each question in detail.</h5>
+<ol class='modal-h5'>
+<li class='first_question'>What if single photo does not capture the all the parts of an object?</li>
+<p class="modal-text">When the user started with tasks, for the initial screen he it was going smooth. As soon as he reached the screen where he has to take photo. He wanted to take a photo of a coffee machine. Now he was interested in taking a photo in such a way that that photo should capture on/off buttons, tray for placing cup and water filling chamber which was at the back of the machine. He was not able to capture all of this into single photo. So the <code>solution</code> for this was to let the user take <code>more than one photo</code> and once all the photos are finalized, system will create a collage in the next screen. Now user has all the sides of any object visible in the collage and can start annotating in the same collage.</p>
+<li class='second_question'>Why is the process of recording and linking action is in two different screens?</li>
+<p class="modal-text">This was a valid point where there was a scope for optimization. In the re-designed version there is only <code>one screen</code> where user enters the type of interaction and after that starts recording sound.</p>
+<img class="img-responsive" src="projects/soundtouch/flow_chart.png" alt="">
+<br>
+<li>What are the type of interactions that can be performed by user?</li>
+<p class="modal-text">This was a very interesting question. When I started looking around me for what all type of interactions were possible I realized user can interact with anything. For example, user can slide curtain and it will make some noise. User can press button to turn on light and it will make a noise. This was quite interesting to me and right away I started with a research study to come up with a list of possible interaction user can make with an object. Also categorize the list by segregating it according to type of interaction.</p>
+<p class="modal-text">Here are the artifacts:</p>
+</ol>
+<img class="img-responsive" src="projects/soundtouch/soundtouch_artifacts.png" alt="">
+<p class="modal-text">After the general observation I came up with a list of 50 possible interactions user can make with everyday objects.</p>
+<h5 class='modal-h5'>And after analyzing following are the type of interactions:</h5>
+<ol class='modal-h5'>
+<li>Continuous: Sliding curtain makes a continuous noise.</li>
+<li>One State: Turning lights on/off makes same noise.</li>
+<li>Two State: On/off button on coffee machine makes two different noises.</li>
+</ol>
+<hr>
+<h4 class='modal-h4'>Final Prototype</h4>
+<iframe width="438" height="930" src="https://invis.io/GBAQ3YR5Q" frameborder="0" allowfullscreen></iframe>
+<hr>
+<h4 class='modal-h4'>Poster</h4>
+<br>
+<img class="img-responsive" src="projects/soundtouch/SoundTouchPosterDan.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2>Other Projects</h2>
+			<br>
+		</div>
+	</div>
+<div class="row">
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+				<a href="reporter.html" class="portfolio-link">
+					<div class="people-image img-responsive"
+						style="background-image:url('projects/rit_reporter.png')">
+					</div>
+				</a>
+				<td class="desc">
+					<a href="reporter.html" class="portfolio-link">
+						<h3>RIT Reporter Website Redesigning</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>Visual Design</code></li>
+						<li><code>Wireframing</code></li>
+						<li><code>12 Column Grid</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+					<a href="sound_touch.html" class="portfolio-link">
+						<div class="people-image img-responsive"
+							style="background-image:url('projects/soundtouch/soundtouch.png')">
+						</div>
+				</a>
+				<td class="desc">
+					<a href="sound_touch.html" class="portfolio-link">
+						<h3>SoundTouch: When Everyday Things Talk To Each Other</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>IoT</code></li>
+						<li><code>Wireframes</code></li>
+						<li><code>UI/UX Design</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+				<a href="telly.html" class="portfolio-link">
+					<div class="people-image img-responsive"
+						style="background-image:url('projects/telly/amc_with_mobile.png')">
+					</div>
+				</a>
+				<td class="desc">
+					<a href="telly.html" class="portfolio-link">
+						<h3>Telly: Re-Imagining the Smart-TV Experience</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>Wireframing</code></li>
+						<li><code>Interaction Design</code></li>
+						<li><code>UI/UX Design</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+
+
+		<footer class="text-center">
+			<div class="footer-below">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							Copyright © tanmay 2016 | Parenting since 'Hello World' | Caring with whole heart and sole | Special thanks
+							to Statipy, GitHub, BootstrapJS and Font Awesome
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+		<div class="scroll-top page-scroll visible-xs visible-sm">
+			<a class="btn btn-primary" href="#page-top">
+				<i class="fa fa-chevron-up"></i>
+			</a>
+		</div>
+
+	</body>
+</html>

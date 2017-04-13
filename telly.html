@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Tanmay Designer|Developer|Photographer</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/freelancer.css" rel="stylesheet">
+		<link href="css/tanmay.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/junction.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/images/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+	</head>
+
+	<body id="page-top" class="index" onload="work()">
+
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/freelancer.js"></script>
+		<script>
+			function work() {
+			var quotes = $(".quotes");
+			var quoteIndex = -1;
+			function showNextQuote() {
+					++quoteIndex;
+					quotes.eq(quoteIndex % quotes.length)
+							.fadeIn(3000)
+							.fadeOut(500, showNextQuote);
+			}
+			showNextQuote();
+			};
+		</script>
+		<!-- Navigation -->
+		<nav class="navbar navbar navbar-fixed-top">
+			<a href="index.html" class="navbar-left"><img class='logo' src="projects/logo.png"></a>
+		</nav>
+
+    <!-- Telly -->
+    <div class="portfolio-modal" id="telly" style='display: block; padding-left: 0px;'>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+																<div class="people-image img-responsive"
+																	style="background-image:url('projects/telly/amc_with_mobile.png')">
+																</div>
+                                <h2>Telly: Re-Imagining the Smart-TV Experience</h2>
+																<br>
+																<h4 class='modal-h4'>The Existing Problem</h4>
+                                <br>
+                                <p class="modal-text">As the internet quickly creeps into our homes, televisions have moved from devices that strictly display scheduled shows and movies to devices that can run apps and control music.  Because of this, remotes are inherently technical in nature.  Users now have to understand whether they’re communicating with the cable box, the television itself, or the audio emitting from potentially external speakers.  Our team aims to re-imagine the television-universal remote pair in order to make the experience less cognitively taxing, such that getting to their favorite show, or accessing an app is seamless, and conceptually makes sense.</p>
+																<p class="modal-text">The idea stemmed from an issue one of our team member’s watched unfold.  His mother had just purchased a new smart TV, and was excited that she could use a universal remote to control the Smart TV, the cable box, as well as the external speakers – she didn’t know the mess she was getting into.  The remote was full of hard buttons, but also had a nifty digital-touch interface.  Once the TV was set up, she was excited to get started with her new TV, and wanted to install Netflix – this is where the headaches began.  The remote was packed with different levels of navigation, including both page-based, as well as hierarchical, and his mother immediately felt uncomfortable when traveling from one level of navigation to the next.  The next issue arose when she was trying to switch from Netflix, back to cable programming.  In order to communicate with the cable box, and perform a function like browser the channels, she had to use the remote to initiate communicate with any peripheral by tapping on its name.  So if she wanted to communicate with the cable box, she had to travel up the navigation hierarchy to locate the name of the cable box, which had a name that didn’t at all correlate with the label on the interface – something like “Verizon STB.”  The issue was that she always had to use the remote to explicitly talk to a specific peripheral, and this made the experience harder than it needed to be.
+																</p>
+<hr>
+<h4 class='modal-h4'>The Direction For Solution</h4>
+<br>
+<p class="modal-text">
+	Because TVs are getting “smarter,” and almost every household has at least one, the introduction of a new smart TV experience is most definitely valuable to a large number of people.  The team is heavily considering a prototypical remote experience through a mobile app (for both iOS and Android devices), as we feel giving anyone the ability to have access to the television through a mobile app is invaluable, and doesn’t require any unnecessary peripheral responsibilities (the remote).  We feel that addressing the remote’s information architecture is important, and really want to abstract away the technical pieces of the “viewing experience” such that consuming shows/movies doesn’t require any thinking past “what should I watch now?”
+</p>
+<p class="modal-text">
+	To address critical mass, our team will focus on the user, and making the experience as simple as possible – that is to say, our design process will be extremely user-centric, and will have no intention of including gimmicky or trendy technology.  By following this process, the team will ensure that our users have functionality that allows them to consume content more effectively.  This is what viewers really care about, and they absolutely should not be bogged down with understanding a peripheral, or supplementary device that detracts the viewing experience.
+</p>
+<p class="modal-text">
+	Understanding that the television experience is often communal is essential to our concept of re-imagining the viewing experience, as we feel there is a great deal that can be done to make the experience of consuming content more social – especially in a family environment.  Though these are some of our initial ideas, the team plans to expand upon the idea of making the experience more social through observing users consume content together.
+</p>
+<hr>
+<h4 class='modal-h4'>Target Audience and Stakeholders</h4>
+<p class="modal-text">
+	The team plans to target both homeowners and families for this re-imagined experience, as we believe this audience will reap the largest benefits from an improved television experience.  Our target users range from ages < 10 to 60+, and because of this wide age range, it’s important that the team observes a large proportion of users in each age bracket such that the experience is intuitive for each age group – however this is obviously easier said than done, and is why the team is excited for the challenge.  When it comes to stakeholders, this experience not only affects television consumers, but most likely also the providers of cable television.  Looking into the future a bit, it’s likely that cable providers (ex: Time Warner) would be heavily invested in this sort of idea, provided that it encourages consumption of their content.  In addition, content services such as Netflix and Hulu, as well as many third-party app developers would also be influenced by this re-designed experience.
+</p>
+<hr>
+<h4 class='modal-h4'>Affinity Diagramming</h4>
+<br>
+<p class="modal-text">
+	After interviewing and observing a number of participants, the team was able to funnel its focus of design tenets for the smart tv experience with
+	the help of affinity diagram.</p>
+	<img class="img-responsive" src="projects/telly/last.jpg" alt="">
+	<img class="img-responsive" src="projects/telly/final.png" alt="">
+	<h5 class='modal-h5'>Looking at the top level (orange) post-it notes on the diagram above, and working from left to right:</h5>
+	<ul class='modal-h5'>
+		<li>Typing on remotes</li>
+		<li>remote interface structure</li>
+		<li>abstracting physical peripherals</li>
+		<li>tv to device interaction</li>
+		<li>means of communication with the tv</li>
+		<li>smart-tv interface interactions</li>
+	</ul>
+
+<hr>
+	<h4 class='modal-h4'>LoFi Prototype</h4>
+  <br>
+	<h5 class='modal-h5'>The Lo-Fi Prototype that we have created is an illustration or diagram of the mobile app that demonstrates</h5>
+	<img class="img-responsive" src="projects/telly/lofi.jpg" alt="">
+	<ul class='modal-h5'>
+		<li>Space allocation on that screen</li>
+		<li>The distribution of images and content</li>
+		<li>Content prioritization</li>
+		<li>Available functions</li>
+		<li>Behaviors intended</li>
+	</ul>
+	<hr>
+  <h4 class='modal-h4'>HiFi Screens</h4>
+  <br>
+  <img class="img-responsive" src="projects/telly/final_collage.png" alt="">
+  <hr>
+	<h4 class='modal-h4'>HiFi Prototype</h4>
+  <br>
+	<p class="modal-text">The Prototype we have created is a draft version of our app that can take us as close as possible to a good representation of the app and its user interface before any coding has begun. This will allow us to explore and experiment with ideas as well as check functionality and usability before any development. With the use of this prototype, the intention behind different features will become clear, and team members will be able to see how the overall design will work together and repair any inconsistencies or errors.</p>
+	<iframe width="424" height="916" src="https://invis.io/P2AXVLHKW" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h2>Other Projects</h2>
+			<br>
+		</div>
+	</div>
+<div class="row">
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+				<a href="reporter.html" class="portfolio-link">
+					<div class="people-image img-responsive"
+						style="background-image:url('projects/rit_reporter.png')">
+					</div>
+				</a>
+				<td class="desc">
+					<a href="reporter.html" class="portfolio-link">
+						<h3>RIT Reporter Website Redesigning</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>Visual Design</code></li>
+						<li><code>Wireframing</code></li>
+						<li><code>12 Column Grid</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+					<a href="sound_touch.html" class="portfolio-link">
+						<div class="people-image img-responsive"
+							style="background-image:url('projects/soundtouch/soundtouch.png')">
+						</div>
+				</a>
+				<td class="desc">
+					<a href="sound_touch.html" class="portfolio-link">
+						<h3>SoundTouch: When Everyday Things Talk To Each Other</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>IoT</code></li>
+						<li><code>Wireframes</code></li>
+						<li><code>UI/UX Design</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="col-sm-4 portfolio-item">
+		<table class="table table-condensed">
+			<tr>
+				<a href="#telly" class="portfolio-link">
+					<div class="people-image img-responsive"
+						style="background-image:url('projects/telly/amc_with_mobile.png')">
+					</div>
+				</a>
+				<td class="desc">
+					<a href="#telly" class="portfolio-link">
+						<h3>Telly: Re-Imagining the Smart-TV Experience</h3>
+					</a>
+					<ul class="list-inline">
+						<li><code>Wireframing</code></li>
+						<li><code>Interaction Design</code></li>
+						<li><code>UI/UX Design</code></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+
+
+		<footer class="text-center">
+			<div class="footer-below">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							Copyright © tanmay 2016 | Parenting since 'Hello World' | Caring with whole heart and sole | Special thanks
+							to Statipy, GitHub, BootstrapJS and Font Awesome
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+		<div class="scroll-top page-scroll visible-xs visible-sm">
+			<a class="btn btn-primary" href="#page-top">
+				<i class="fa fa-chevron-up"></i>
+			</a>
+		</div>
+  </body>
+</html>
