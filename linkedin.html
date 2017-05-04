@@ -14,6 +14,7 @@
 		<link href="css/tanmay.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="css/junction.css" rel="stylesheet" type="text/css">
+		<link href="css/zoomple.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<!--[if lt IE 9]>
 				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -28,7 +29,7 @@
 
 	</head>
 
-	<body id="page-top" class="index" onload="work()">
+	<body id="page-top" class="linkedin" onload="work()">
 
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -36,18 +37,17 @@
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/freelancer.js"></script>
+		<script src="js/zoomple.js"></script>
 		<script>
 			function work() {
-			var quotes = $(".quotes");
-			var quoteIndex = -1;
-			function showNextQuote() {
-					++quoteIndex;
-					quotes.eq(quoteIndex % quotes.length)
-							.fadeIn(3000)
-							.fadeOut(500, showNextQuote);
-			}
-			showNextQuote();
+				$('.zoomple').zoomple({
+				offset : {x:50,y:-150},
+				zoomWidth : 300,
+				zoomHeight : 300,
+				roundedCorners : true
+			});
 			};
+
 		</script>
 		<!-- Navigation -->
 		<nav class="navbar navbar navbar-fixed-top">
@@ -96,6 +96,7 @@
 </ul>
 <hr>
 <h4 class='modal-h4'>Flow Model</h4>
+<br>
 <p class="modal-text">
 	depicts people’s responsibilities and the communication and coordination required to do a job.
 </p>
@@ -103,6 +104,7 @@
 <img class="img-responsive" src="projects/linkedin/flow_model.png" alt="">
 <hr>
 <h4 class='modal-h4'>Cultural Model</h4>
+<br>
 <p class="modal-text">
 	reveals influences on a person weather external to the company or internal company policies.
 </p>
@@ -110,6 +112,7 @@
 <img class="img-responsive" src="projects/linkedin/cultural_model.png" alt="">
 <hr>
 <h4 class='modal-h4'>Artifact Models</h4>
+<br>
 <p class="modal-text">
 	copies or representations of physical or electronic “things” the user creates, passes, or references to do a task.
 </p>
@@ -121,38 +124,45 @@
 <p class="modal-text">
 	After interviewing and observing a number of participants, the team was able to funnel its focus of design tenets for the LinkedIn's experience with
 	the help of affinity diagram.</p>
-	<img class="img-responsive" src="projects/telly/last.jpg" alt="">
-	<h5 class='modal-h5'>Looking at the top level (orange) post-it notes on the diagram above, and working from left to right:</h5>
+	(hover on the image to magnify)
+	<a href="projects/linkedin/affinity_diagram.png" class="zoomple" title="hm"><img class='img-responsive' src="projects/linkedin/affinity_diagram_sm.png" alt=""> </a>
+	<h5 class='modal-h5'>Looking at the top level (green) post-it notes on the diagram above, and working from left to right:</h5>
 	<ul class='modal-h5'>
-		<li>Typing on remotes</li>
-		<li>remote interface structure</li>
-		<li>abstracting physical peripherals</li>
-		<li>tv to device interaction</li>
-		<li>means of communication with the tv</li>
-		<li>smart-tv interface interactions</li>
+		<li>Too many edit options on the profile page</li>
+		<li>Saving/deleting endorsements</li>
+		<li>Previous search option is better</li>
+		<li>Confusing button labels</li>
 	</ul>
 
 <hr>
-	<h4 class='modal-h4'>LoFi Prototype</h4>
+	<h4 class='modal-h4'>Visioning</h4>
   <br>
-	<h5 class='modal-h5'>The Lo-Fi Prototype that we have created is an illustration or diagram of the mobile app that demonstrates</h5>
-	<img class="img-responsive" src="projects/telly/lofi.jpg" alt="">
-	<ul class='modal-h5'>
-		<li>Space allocation on that screen</li>
-		<li>The distribution of images and content</li>
-		<li>Content prioritization</li>
-		<li>Available functions</li>
-		<li>Behaviors intended</li>
-	</ul>
+	<p class="modal-text">
+		is similar to traditional task analysis. It shows each step, triggers for the steps, different strategies for achieving each intent, and breakdown in the ongoing work.
+	</p>
+	<img class="img-responsive" src="projects/linkedin/visioning.JPG" alt="">
 	<hr>
-  <h4 class='modal-h4'>HiFi Screens</h4>
+  <h4 class='modal-h4'>Storyboarding</h4>
   <br>
-  <img class="img-responsive" src="projects/telly/final_collage.png" alt="">
-  <hr>
-	<h4 class='modal-h4'>HiFi Prototype</h4>
-  <br>
-	<p class="modal-text">The Prototype we have created is a draft version of our app that can take us as close as possible to a good representation of the app and its user interface before any coding has begun. This will allow us to explore and experiment with ideas as well as check functionality and usability before any development. With the use of this prototype, the intention behind different features will become clear, and team members will be able to see how the overall design will work together and repair any inconsistencies or errors.</p>
-	<iframe width="424" height="916" src="https://invis.io/P2AXVLHKW" frameborder="0" allowfullscreen></iframe>
+	<h5 class='modal-h5'>Problem 1</h5>
+	<p class="modal-text">
+		A user wishes to search for a company called LML. He types the name of the company in the search bar and clicks on the search button. The user is taken to the search results page which shows the top results instead of showing the list of companies.
+	</p>
+	<h5 class='modal-h5'>Solution 1</h5>
+	<p class="modal-text">
+		A user searches for a company named LML by typing its name in the search bar and adding a filter of “company” before clicking on the search button. After the search button is clicked, it takes the user to the search results page with the list of companies.
+	</p>
+	<img class="img-responsive" src="projects/linkedin/story1.png" alt="">
+	<h5 class='modal-h5'>Problem 2</h5>
+	<p class="modal-text">
+		The user wishes to follow a group. He finds the group’s page and clicks on the follow button. The button state changes from “Follow” to “Unfollow”. He then later visits the page again and notices that the button state is “Following” and when he hovers over it, it changes to “Unfollow”.
+	</p>
+	<h5 class='modal-h5'>Solution 2</h5>
+	<p class="modal-text">
+		He finds the group’s page and clicks on the follow button. The button state changes from “Follow” to “Following” and the user knows that he is following the group. When the user hovers over the button, its state changes to “Unfollow”. At this time the user knows that when he clicks on it, he would unfollow the company.
+	</p>
+	<img class="img-responsive" src="projects/linkedin/story2.png" alt="">
+  
                             </div>
                         </div>
                     </div>

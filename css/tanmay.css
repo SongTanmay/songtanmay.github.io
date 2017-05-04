@@ -497,6 +497,16 @@ h3:hover{
 	color: rgb(132, 187, 121);
 }
 
+.mag{
+    cursor:url(projects/linkedin/affinity_diagram_copy.cur), pointer;
+}
+
+.mag{
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
 .contact_me_text:hover{
 	color: rgb(132, 187, 121);
 }
