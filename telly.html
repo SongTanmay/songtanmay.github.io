@@ -36,19 +36,6 @@
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/freelancer.js"></script>
-		<script>
-			function work() {
-			var quotes = $(".quotes");
-			var quoteIndex = -1;
-			function showNextQuote() {
-					++quoteIndex;
-					quotes.eq(quoteIndex % quotes.length)
-							.fadeIn(3000)
-							.fadeOut(500, showNextQuote);
-			}
-			showNextQuote();
-			};
-		</script>
 		<!-- Navigation -->
 		<nav class="navbar navbar navbar-fixed-top">
 			<a href="index.html" class="navbar-left"><img class='logo' src="projects/logo.png"></a>
@@ -56,6 +43,9 @@
 
     <!-- Telly -->
     <div class="portfolio-modal" id="telly" style='display: block; padding-left: 0px;'>
+			<div class="people-image img-responsive"
+				style="background-image:url('projects/telly/amc_with_mobile.png')">
+			</div>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="container">
@@ -63,19 +53,14 @@
                         <div class="col-lg-10 col-lg-offset-1">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-																<div class="people-image img-responsive"
-																	style="background-image:url('projects/telly/amc_with_mobile.png')">
-																</div>
                                 <h2>Telly: Re-Imagining the Smart-TV Experience</h2>
 																<br>
 																<h4 class='modal-h4'>The Existing Problem</h4>
-                                <br>
                                 <p class="modal-text">As the internet quickly creeps into our homes, televisions have moved from devices that strictly display scheduled shows and movies to devices that can run apps and control music.  Because of this, remotes are inherently technical in nature.  Users now have to understand whether they’re communicating with the cable box, the television itself, or the audio emitting from potentially external speakers.  Our team aims to re-imagine the television-universal remote pair in order to make the experience less cognitively taxing, such that getting to their favorite show, or accessing an app is seamless, and conceptually makes sense.</p>
 																<p class="modal-text">The idea stemmed from an issue one of our team member’s watched unfold.  His mother had just purchased a new smart TV, and was excited that she could use a universal remote to control the Smart TV, the cable box, as well as the external speakers – she didn’t know the mess she was getting into.  The remote was full of hard buttons, but also had a nifty digital-touch interface.  Once the TV was set up, she was excited to get started with her new TV, and wanted to install Netflix – this is where the headaches began.  The remote was packed with different levels of navigation, including both page-based, as well as hierarchical, and his mother immediately felt uncomfortable when traveling from one level of navigation to the next.  The next issue arose when she was trying to switch from Netflix, back to cable programming.  In order to communicate with the cable box, and perform a function like browser the channels, she had to use the remote to initiate communicate with any peripheral by tapping on its name.  So if she wanted to communicate with the cable box, she had to travel up the navigation hierarchy to locate the name of the cable box, which had a name that didn’t at all correlate with the label on the interface – something like “Verizon STB.”  The issue was that she always had to use the remote to explicitly talk to a specific peripheral, and this made the experience harder than it needed to be.
 																</p>
 <hr>
 <h4 class='modal-h4'>The Direction For Solution</h4>
-<br>
 <p class="modal-text">
 	Because TVs are getting “smarter,” and almost every household has at least one, the introduction of a new smart TV experience is most definitely valuable to a large number of people.  The team is heavily considering a prototypical remote experience through a mobile app (for both iOS and Android devices), as we feel giving anyone the ability to have access to the television through a mobile app is invaluable, and doesn’t require any unnecessary peripheral responsibilities (the remote).  We feel that addressing the remote’s information architecture is important, and really want to abstract away the technical pieces of the “viewing experience” such that consuming shows/movies doesn’t require any thinking past “what should I watch now?”
 </p>
@@ -92,7 +77,6 @@
 </p>
 <hr>
 <h4 class='modal-h4'>Affinity Diagramming</h4>
-<br>
 <p class="modal-text">
 	After interviewing and observing a number of participants, the team was able to funnel its focus of design tenets for the smart tv experience with
 	the help of affinity diagram.</p>
@@ -110,7 +94,6 @@
 
 <hr>
 	<h4 class='modal-h4'>LoFi Prototype</h4>
-  <br>
 	<h5 class='modal-h5'>The Lo-Fi Prototype that we have created is an illustration or diagram of the mobile app that demonstrates</h5>
 	<img class="img-responsive" src="projects/telly/lofi.jpg" alt="">
 	<ul class='modal-h5'>
@@ -122,11 +105,9 @@
 	</ul>
 	<hr>
   <h4 class='modal-h4'>HiFi Screens</h4>
-  <br>
   <img class="img-responsive" src="projects/telly/final_collage.png" alt="">
   <hr>
 	<h4 class='modal-h4'>HiFi Prototype</h4>
-  <br>
 	<p class="modal-text">The Prototype we have created is a draft version of our app that can take us as close as possible to a good representation of the app and its user interface before any coding has begun. This will allow us to explore and experiment with ideas as well as check functionality and usability before any development. With the use of this prototype, the intention behind different features will become clear, and team members will be able to see how the overall design will work together and repair any inconsistencies or errors.</p>
 	<iframe width="424" height="916" src="https://invis.io/P2AXVLHKW" frameborder="0" allowfullscreen></iframe>
                             </div>

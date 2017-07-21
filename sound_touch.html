@@ -36,19 +36,6 @@
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/freelancer.js"></script>
-		<script>
-			function work() {
-			var quotes = $(".quotes");
-			var quoteIndex = -1;
-			function showNextQuote() {
-					++quoteIndex;
-					quotes.eq(quoteIndex % quotes.length)
-							.fadeIn(3000)
-							.fadeOut(500, showNextQuote);
-			}
-			showNextQuote();
-			};
-		</script>
 		<!-- Navigation -->
 		<nav class="navbar navbar navbar-fixed-top">
 			<a href="index.html" class="navbar-left"><img class='logo' src="projects/logo.png"></a>
@@ -56,19 +43,18 @@
 
 <!-- Sound Touch -->
 <div class="portfolio-modal" id="soundtouch" style='display: block; padding-left: 0px;'>
+	<div class="people-image img-responsive"
+		style="background-image:url('projects/soundtouch/soundtouch.png')">
+	</div>
     <div class="modal-dialog">
         <div class="modal-content">
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-
-                            <h2 class="lower_case">Sound Touch: When Everyday Things Talk to Each Other</h2>
-                            <br>
-														<div class="people-image img-responsive"
-									            style="background-image:url('projects/soundtouch/soundtouch.png')">
-									          </div>
+														<h2 class="lower_case">Sound Touch: When Everyday Things Talk to Each Other</h2>
 														<br>
                             <h4 class='modal-h4'>Roots</h4>
                             <p class="modal-text">One fine morning, in the diligent atmosphere of our FETLab, Dr. Daniel Ashbrook engaged me in a conversation about new horizons in the field of Internet of Things and endless possibilities in it. In the middle of discussion he stood up, turned on the coffee machine and placed the cup under the nozzle. As he turned coffee machine on, he realized there is no water. Habitually he refilled the water jar and resumed the process. While the coffeemaker was busy brewing, he dabbled in his iPhone for a few seconds and the music player came to life with some ambient music before he picked up his freshly brewed coffee and resumed our discussion. As the aroma of caffeine filled my senses, in a moment of inspiration I asked him if we could automate this process.</p>

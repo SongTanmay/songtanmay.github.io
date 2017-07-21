@@ -36,25 +36,15 @@
 		<script src="js/classie.js"></script>
 		<script src="js/cbpAnimatedHeader.js"></script>
 		<script src="js/freelancer.js"></script>
-		<script>
-			function work() {
-			var quotes = $(".quotes");
-			var quoteIndex = -1;
-			function showNextQuote() {
-					++quoteIndex;
-					quotes.eq(quoteIndex % quotes.length)
-							.fadeIn(3000)
-							.fadeOut(500, showNextQuote);
-			}
-			showNextQuote();
-			};
-		</script>
 		<!-- Navigation -->
 		<nav class="navbar navbar navbar-fixed-top">
 			<a href="index.html" class="navbar-left"><img class='logo' src="projects/logo.png"></a>
 		</nav>
 
     <div class="portfolio-modal" id="reporter" style='display: block; padding-left: 0px;'>
+			<div class="people-image img-responsive"
+				style="background-image:url('projects/rit_reporter.png')">
+			</div>
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="container">
@@ -62,12 +52,7 @@
                         <div class="col-lg-10 col-lg-offset-1">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-
-                                <h2 class="lower_case">RIT Reporter Website Redesigning</h2>
-                                <br>
-                                <div class="people-image img-responsive"
-                                  style="background-image:url('projects/rit_reporter.png')">
-                                </div>
+																<h2 class="lower_case">RIT Reporter Website Redesigning</h2>
                                 <br>
                                 <h4 class='modal-h4'>Purpose</h4>
                                 <p class="modal-text">The Reporter Magazine aims at informing the reader about the current
