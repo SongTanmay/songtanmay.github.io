@@ -97,7 +97,7 @@ li.active{
 	text-transform: initial;
 }
 
-.logo { width: 178px }
+.logo { width: 40px }
 
 .navbar-fixed-top, .navbar-fixed-top.navbar-shrink
 {
@@ -437,11 +437,6 @@ h5{
 	background-size: contain;
 	margin-bottom: 2%;
 }
-
-.logo{
-	width: 35%;
-}
-
 
 .ribbon-wrapper-green {
   width: 85px;
