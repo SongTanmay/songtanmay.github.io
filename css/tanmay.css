@@ -4,6 +4,10 @@ body
 	line-height: 1.8;
 }
 
+.btn-primary{
+	background-color: #1DB954;	
+}
+
 .quotes {display: none;}
 
 footer h3
