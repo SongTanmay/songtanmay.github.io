@@ -5,7 +5,7 @@ body
 }
 
 .btn-primary{
-	background-color: #1DB954 !important;	
+	background-color: #1DB954 !important;
 }
 
 .quotes {display: none;}
@@ -252,9 +252,9 @@ footer{
 	font-family: "Roboto",sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 25px;
-	color: #5d5d5d;
-	line-height: 44px;
+	font-size: 24px;
+	color: #6c6c6c;
+	line-height: 40px;
 
 }
 .white_h2{
@@ -582,7 +582,7 @@ iPad 3
 }
 .hi{
 	font-size: 14px;
-	color: #5d5d5d;
+	color: #6c6c6c;
 	line-height: 15px;
 }
 	.tanmay{
