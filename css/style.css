@@ -22,6 +22,9 @@ table td { padding: 3px 8px }
 #pubTable th {display: none}
 #pubTable .biblink {display: none}
 
+
+
+transition: filter 2s;
 .sidebar ul
 {
 	padding-left: 1em;
@@ -97,5 +100,3 @@ ul { list-style-type: circle }
 .fa-mobile { color: #32c800 }
 
 .center-content ul { padding-left: 1em }
-
-
