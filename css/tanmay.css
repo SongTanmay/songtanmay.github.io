@@ -265,10 +265,15 @@ footer{
 }
 
 .tanmay{
-	padding-top: 20% !important;
+	color: #c8c6c6;
 }
 .hi_tanmay{
-	width: 60%
+	width: 100%:
+}
+
+.tanmay_hide{
+	opacity: 0;
+	max-width: 40%:
 }
 
 .portfolio-modal .modal-dialog {
