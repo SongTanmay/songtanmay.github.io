@@ -224,6 +224,36 @@ footer{
 	bottom: 0;
 }
 
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+
+#darkbox {
+	width:1280px;
+	height:720px;
+	position:absolute;
+	top:0; left:0;
+	background-color:#fff;
+	overflow: hidden;
+	text-align:center;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.darkboximg { padding:5%; max-width: 1216px; max-height: 684px; }
+
+
 .fa-linkedin:hover{
 	color: #1DB954;
 }
@@ -273,7 +303,7 @@ footer{
 
 .tanmay_hide{
 	opacity: 0;
-	max-width: 40% !important;
+	max-width: 25% !important;
 }
 
 .portfolio-modal .modal-dialog {
@@ -527,6 +557,11 @@ h3:hover{
 	.logo{
 		width: 10%;
 	}
+	#gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -535,6 +570,11 @@ h3:hover{
 .logo{
 	width: 20%;
 }
+#gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
 }
 
 /* iPads (landscape) ----------- */
@@ -543,6 +583,11 @@ h3:hover{
 	.logo{
 		width: 20%;
 	}
+	#gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
 }
 
 /* iPads (portrait) ----------- */
@@ -551,6 +596,11 @@ h3:hover{
 .logo{
 	width: 20%;
 }
+#gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
 }
 /**********
 iPad 3
@@ -560,6 +610,11 @@ iPad 3
 .logo{
 	width: 20%;
 }
+#gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -567,6 +622,11 @@ iPad 3
 .logo{
 	width: 20%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* iPhone 4 ----------- */
@@ -575,6 +635,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -591,7 +656,7 @@ iPad 3
 	line-height: 15px;
 }
 	.tanmay{
-		padding-top: 10% !important;
+		padding-top: 0% !important;
 }
 	.modal-content {
 		padding-top: 0px;
@@ -599,6 +664,11 @@ iPad 3
 	#dribbbleShots{
 		padding-left: 0px;
 	}
+	#gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
 }
 
 /* iPhone 5 ----------- */
@@ -607,6 +677,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -614,6 +689,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* iPhone 6, 7, 8 ----------- */
@@ -622,6 +702,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -629,6 +714,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* iPhone 6+, 7+, 8+ ----------- */
@@ -637,6 +727,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -644,6 +739,11 @@ iPad 3
 \	.logo{
 		width: 10%;
 	}
+	#gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
 }
 
 /* iPhone X ----------- */
@@ -664,6 +764,11 @@ iPad 3
 	#dribbbleShots{
 		padding-left: 0px;
 	}
+	#gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -671,6 +776,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* iPhone XS Max, XR ----------- */
@@ -679,6 +789,11 @@ iPad 3
 	.logo{
 		width: 10%;
 	}
+	#gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -686,6 +801,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* Samsung Galaxy S3 ----------- */
@@ -694,6 +814,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -701,6 +826,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* Samsung Galaxy S4 ----------- */
@@ -709,6 +839,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -716,6 +851,11 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
 
 /* Samsung Galaxy S5 ----------- */
@@ -724,6 +864,11 @@ iPad 3
 	.logo{
 		width: 10%;
 	}
+	#gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -731,4 +876,9 @@ iPad 3
 .logo{
 	width: 10%;
 }
+#gallery {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+ }
 }
